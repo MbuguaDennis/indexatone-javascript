@@ -1,0 +1,49 @@
+button{
+    border: 0;
+    background-color: rgb(209, 18, 216);
+    color: #fff;
+    font-size: 24px;
+    padding: 14px ;
+    border-radius: 7px;
+    transition: background-color 0.5s ease-out linear;
+    cursor: pointer;
+    font-weight: 700;
+    display: block;
+    margin-top: 30px;
+}
+button:hover{
+    opacity: 0.8;
+
+}
+section{
+
+    border-radius: 7px;
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(rgba(1, 25, 54, 0.5),#011936),
+    url('/pexels-photo-12719331.jpeg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    object-fit: cover;
+
+    /* background:#011936, url('./pexels-photo-12719331.jpeg'); */
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    color: rgba(255,255,255,0.9);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1.2;
+    font-style: 1.15rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+span{
+    color: rgb(209, 18, 216);
+    text-decoration: underline;
+    font-size: 1.25rem;
+}
